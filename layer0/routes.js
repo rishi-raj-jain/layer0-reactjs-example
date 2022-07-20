@@ -1,5 +1,4 @@
 import { Router } from '@layer0/core/router'
-import { BACKENDS } from '@layer0/core/constants'
 import getPathsToPrerender from './prerenderRequests'
 import { isProductionBuild } from '@layer0/core/environment'
 import { API_CACHE_HANDLER, IMAGE_CACHE_HANDLER } from './cache'
@@ -46,8 +45,8 @@ if (isProductionBuild()) {
   router.static('build')
   router.fallback(({ serveStatic }) => serveStatic('build/index.html'))
 } else {
-  router.fallback(({ proxy }) => {
-    proxy(BACKENDS.js)
+  router.fallback(({ renderWithApp }) => {
+    renderWithApp()
   })
 }
 
