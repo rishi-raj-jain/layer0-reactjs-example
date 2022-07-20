@@ -7,7 +7,7 @@ import installDevtools from '@layer0/devtools/install'
 
 // Include the RUM Analytics in the production build only
 if (process.env.NODE_ENV === 'production') {
-  Layer0RUM('f3b82d21-7df8-46e4-8475-5f30ed585341')
+  Layer0RUM('5cb233f7-ae2b-4be0-8c8d-78fb833af500')
 }
 
 const App = () => {
