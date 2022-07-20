@@ -3,19 +3,16 @@ const Home = () => {
     <div className="flex min-h-[calc(100vh-56px)] flex-col items-center justify-center px-5 md:px-0">
       <div className="flex w-full flex-row flex-wrap justify-center md:w-[700px]">
         <div className="flex w-[330px] flex-col items-start justify-start rounded p-5 md:w-1/2">
-          <h1 className="text-xl font-bold text-white">Next.js with Layer0</h1>
-          <h3 className="mt-2 text-lg text-[#FFFFFF75]">Layer0 supports all of the most powerful features of Next.js!</h3>
-          <a className="mt-auto text-[#01B18D] hover:underline" href="https://docs.layer0.co/guides/next" target="_blank">
+          <h1 className="text-xl font-bold text-white">React.js with Layer0</h1>
+          <h3 className="mt-2 text-lg text-[#FFFFFF75]">Layer0 supports all of the most powerful features of React.js!</h3>
+          <a className="mt-auto text-[#01B18D] hover:underline" href="https://docs.layer0.co/guides/react" target="_blank">
             Learn More &rarr;
           </a>
         </div>
         <div className="flex w-[330px] flex-col items-start justify-start rounded p-5 md:w-1/2">
-          <h1 className="text-xl font-bold text-white">Next.js Commerce with Layer0</h1>
-          <h3 className="mt-2 mb-5 text-lg text-[#FFFFFF75]">
-            It uses all of the latest Next.js features including image optimization, localization, and incremental static regeneration with
-            stale-while-revalidate.
-          </h3>
-          <a className="mt-auto text-[#01B18D] hover:underline" href="https://docs.layer0.co/guides/next_commerce" target="_blank">
+          <h1 className="text-xl font-bold text-white">Next.js with Layer0</h1>
+          <h3 className="mt-2 text-lg text-[#FFFFFF75]">Layer0 supports all of the most powerful features of Next.js!</h3>
+          <a className="mt-auto text-[#01B18D] hover:underline" href="https://docs.layer0.co/guides/next" target="_blank">
             Learn More &rarr;
           </a>
         </div>
